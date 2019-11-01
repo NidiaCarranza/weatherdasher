@@ -1,3 +1,69 @@
-.container{
-    color: grey;
+#body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#heading{
+    display:flex;
+    text-align:center;
+}
+#cities {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    color: white;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: green;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border: solid 10px;
+}
+#weather {
+    margin-left: 120px; 
+    padding: 0px 10px;
+}
+
+#heading {
+    margin: 30px;
+    font-size: 100px;
+    background-color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#presetCities{
+    margin: 10px;
+    cursor: pointer;
+}
+
+#currentDay{
+    border-radius:3px;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+  }
+
+  #forcast .days div{
+    padding:5px;
+    background-color: goldenrod;
+    color:white;
+    border-radius:10px;
+    margin:5px;
+    text-align:center;
+    display: inline-block;
+  }
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
